@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     font-size: 14px;
-    color: #ccc;
+    color: #333;
 }
 body{
     background: #ddd;
@@ -17,7 +17,7 @@ dl{
     margin: 0;
     font-size: 16px;
 }
-.fontItem{
+.formItem{
     display: flex;
     margin-bottom: 2em;
     align-items: center;
@@ -40,7 +40,7 @@ input[type="text"],textarea{
     border-radius: 5px;
 }
 .job {
-    margin-right: .8em;
+    margin-right: 8em;
 }
 select {
     background: #fff;
@@ -64,8 +64,8 @@ input[type="submit"]{
     color: #fff;
     font-size: 14px;
 }
-@media screen and (maxwidth:768px){
-    .fontItem{display: block;}
+@media screen and (max-width:768px){
+    .formItem{display: block;}
     dt{
         text-align: left;
         margin-bottom: 4px;
@@ -74,6 +74,6 @@ input[type="submit"]{
         margin-left: 0;
     }
     .job{
-        margin-right: .8em;
+        margin-right: 8em;
     }
 }
