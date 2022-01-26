@@ -4,8 +4,7 @@
 全体の初期設定
 ----------------------------*/
 * {
-  box-sizing: border-box;
-  font-family: HGS明朝E;
+  font-family: 'Kaisei HarunoUmi', serif;
   margin: 0;
 }
 body {
@@ -52,3 +51,13 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+body{
+    background: url(wood.jpg) #504643 left top repeat;
+    text-align: center;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+li{flex: 1 1 20%;}
